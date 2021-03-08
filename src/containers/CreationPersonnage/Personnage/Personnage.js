@@ -1,6 +1,6 @@
 import React from 'react';
 import Css from "./Personnage.module.css";
-import ImgPerso from "./ImgPerso/ImgPerso";
+import ImgPerso from "./ImgPerso/imgPerso";
 import SkillPerso from "./SkillPerso/SkillPerso"
 
 const personnage = (props) =>{
