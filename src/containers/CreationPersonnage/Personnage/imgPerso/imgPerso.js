@@ -13,11 +13,11 @@ const imgPerso = (props) => {
 
     return (
         <div className={[Css.grid, "no-gutter text-center align-items-center"].join(' ')}>
-            <div className={[Css.fleche, Css.gauche, "m-auto"].join(' ')}></div>
+            <div className={[Css.fleche, Css.gauche, "m-auto"].join(' ')} onClick={props.gauche}></div>
             <img src={img} alt="perso" className="m-auto"></img>
-            <div className={[Css.fleche, Css.droite, "m-auto"].join(' ')}></div>
+            <div className={[Css.fleche, Css.droite, "m-auto"].join(' ')} onClick={props.droite}></div>
         </div>
     );
 }
 
-export default imgPerso;
+export default imgPerso; 
