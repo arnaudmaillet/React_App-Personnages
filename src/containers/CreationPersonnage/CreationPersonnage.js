@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Titreh1 from '../../components/Titres/TitreH1';
-import Bouton from "../../components/Boutons/Bouton";
-import Personnage from "./Personnage/Personnage";
-import Armes from "./Armes/Armes"
+import Titreh1 from '../../components/Titres/TitreH1.js';
+import Bouton from "../../components/Boutons/Bouton.js";
+import Personnage from "./Personnage/Personnage.js";
+import Armes from "./Armes/Armes.js"
 
 
 class CreationPersonnage extends Component{

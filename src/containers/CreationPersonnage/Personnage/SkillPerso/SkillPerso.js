@@ -1,5 +1,5 @@
 import React from "react";
-import Skill from "./Skill/Skill"
+import Skill from "./Skill/Skill.js"
 
 const skillPerso = (props) => {
     return (

@@ -1,5 +1,5 @@
 import React from "react";
-import Arme from "./Arme/Arme";
+import Arme from "./Arme/Arme.js";
 import imgArc from "../../../assets/images/armes/arc.png";
 import imgMassue from "../../../assets/images/armes/fleau.png";
 import imgEpee from "../../../assets/images/armes/epee.png";

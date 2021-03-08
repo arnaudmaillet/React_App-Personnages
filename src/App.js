@@ -1,5 +1,5 @@
 import React from 'react';
-import CreationPersonnage from "./containers/CreationPersonnage/CreationPersonnage";
+import CreationPersonnage from "./containers/CreationPersonnage/CreationPersonnage.js";
 
 function App() {
   return (

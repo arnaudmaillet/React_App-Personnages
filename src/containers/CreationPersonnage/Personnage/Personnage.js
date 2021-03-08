@@ -1,7 +1,7 @@
 import React from 'react';
 import Css from "./Personnage.module.css";
-import ImgPerso from "./ImgPerso/imgPerso";
-import SkillPerso from "./SkillPerso/SkillPerso"
+import ImgPerso from "./ImgPerso/imgPerso.js";
+import SkillPerso from "./SkillPerso/SkillPerso.js"
 
 const personnage = (props) =>{
     return(
